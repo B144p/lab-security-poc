@@ -16,6 +16,7 @@ tool.
 | # | Case | Category | Status | Folder |
 |---|------|----------|--------|--------|
 | 01 | Non-constant-time secret comparison (`===`) leaks the secret via response-time side channel; fixed with `crypto.timingSafeEqual` | Timing attack / side-channel | Not yet proved | [`01-timing-attack-string-compare/`](./01-timing-attack-string-compare) |
+| 02 | A "human-like" browser bot (curved mouse, random delays, real browser over CDP) passes cheap checks (UA, `webdriver`, rate limit, center-click); session behavior scoring (reaction time, rhythm, focus, input patterns) still catches it | Bot detection / behavioral analysis | Not yet proved | [`02-bot-detection-behavior/`](./02-bot-detection-behavior) |
 
 ### Status legend
 - **Not yet proved** — case written up, PoC not built or not run yet
